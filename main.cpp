@@ -37,15 +37,6 @@ int main(){
   }
   std::cout << '\n';
 
-  /*
-  //this is for showing history
-  for (int i = 0; i < populationSize; i++) {
-    int sizeH = population[i].history().size();
-    for (int j = 0; j < sizeH; j++)
-      std::cout << population[i].history()[j] << ' ';
-    std::cout << '\n';
-  }*/
-
   std::vector<int> moneyVec;
   for (int i = 0; i < populationSize; i++) {
     while (moneyVec.size() < population[i].money()+1) {
